@@ -137,7 +137,7 @@ const Projects = () => {
     {
       title: "AI-MENTOR",
       description: "An AI-powered e-learning platform with voice interaction capabilities, providing personalized learning through AI mentors.",
-      image: "../../public/images/cartoon-ai.jpg",
+      image: "https://i.imghippo.com/files/sSh1242ykA.jpg",
       technologies: ["React", "Django", "Vapi AI", "Gemini", "JWT Auth"],
       category: "featured",
       github: "https://github.com/Nivin1122/AI_MENTOR",
@@ -146,7 +146,7 @@ const Projects = () => {
     {
       title: "TenZo",
       description: "A full-featured eCommerce platform for selling clothing with secure payment processing and admin dashboard.",
-      image: "../../public/images/ecom.jpg",
+      image: "https://i.imghippo.com/files/AtIE8746fM.jpg",
       technologies: ["Django", "React", "Razorpay", "Redux", "PostgreSQL"],
       category: "featured",
       github: "https://github.com/Nivin1122/TenZo",
@@ -155,7 +155,7 @@ const Projects = () => {
     {
       title: "OLX Clone",
       description: "A fully functional marketplace with user authentication, product listings, and category filtering.",
-      image: "../../public/images/olx.jpg",
+      image: "https://i.imghippo.com/files/Lm7868Yek.jpg",
       technologies: ["React", "Django", "REST API"],
       category: "web",
       github: "https://github.com/Nivin1122/OLX-Clone-React"
@@ -163,7 +163,7 @@ const Projects = () => {
     {
       title: "Netflix Clone",
       description: "Netflix-like platform with dynamic content fetching from TMDB API and user authentication.",
-      image: "../../public/images/netflix.jpg",
+      image: "https://i.imghippo.com/files/pbk9310qL.jpg",
       technologies: ["React", "Firebase", "TMDB API"],
       category: "web",
       github: "https://github.com/Nivin1122/Netflix_Clone_REACT"
@@ -171,7 +171,7 @@ const Projects = () => {
     {
       title: "Tic Tac Toe Game",
       description: "Interactive Tic Tac Toe game with clean UI and game state management.",
-      image: "../../public/images/tic_tac_toe.jpg",
+      image: "https://i.imghippo.com/files/pTc7983dg.jpg",
       technologies: ["React", "CSS", "JavaScript"],
       category: "mini",
       github: "https://github.com/Nivin1122/Tic-Tac-Toe"
@@ -179,7 +179,7 @@ const Projects = () => {
     {
       title: "User Management System",
       description: "Complete user management system with authentication, role-based access control, and profile management.",
-      image: "../../public/images/ums.jpg",
+      image: "https://i.imghippo.com/files/TNCh6447jQI.jpg",
       technologies: ["Django", "React", "JWT", "PostgreSQL"],
       category: "web",
       github: "https://github.com/Nivin1122/week_21"
@@ -187,7 +187,7 @@ const Projects = () => {
     {
       title: "Tiles & Chemicals Backend",
       description: "Backend system for a tiles and chemicals website with admin authentication, product management, and customer inquiry handling.",
-      image: "../../public/images/tiles.jpg",
+      image: "https://i.imghippo.com/files/MxO3156ElQ.jpg",
       technologies: ["PHP", "Laravel", "MySQL"],
       category: "web",
       github: "https://github.com/Nivin1122/Tiles_and_Chemicals"
@@ -195,7 +195,7 @@ const Projects = () => {
     {
       title: "Speech Tables",
       description: "An educational web app that speaks out multiplication tables aloud when a user selects a number, using JavaScript and the Web Speech API.",
-      image: "../../public/images/tables.jpg",
+      image: "https://i.imghippo.com/files/VIQ4042MTA.jpg",
       technologies: ["HTML", "CSS", "JavaScript", "Web Speech API"],
       category: "web",
       github: "https://github.com/Nivin1122/speech-tables"

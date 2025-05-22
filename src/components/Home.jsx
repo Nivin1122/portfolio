@@ -136,12 +136,12 @@ const Hero = () => {
                   <div className="w-full h-full rounded-full overflow-hidden border-2 border-gray-800/50 backdrop-blur-3xl">
                     <div className="relative w-full h-full flex items-center justify-center">
                       <img
-                        src="/profile-photo.png"
+                        src="https://i.imghippo.com/files/Ozih6917Xc.png"
                         alt="Nivin MB"
                         className="w-full h-full object-cover object-center"
                         onError={(e) => {
                           e.target.onerror = null; 
-                          e.target.src = '../../public/images/nivin3.png';
+                          e.target.src = 'https://i.imghippo.com/files/Ozih6917Xc.png';
                         }}
                       />
                     </div>
