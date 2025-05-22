@@ -123,19 +123,21 @@ const Resume = () => {
         <div className="flex justify-between items-center mb-10">
           <div className="flex items-center gap-4 relative z-20">
             <motion.a
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.3 }}
-                href="/resume/Nivin-MB%20resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="flex items-center gap-2 px-6 py-2 rounded-md bg-transparent border border-indigo-500 text-indigo-400 text-sm font-medium hover:bg-indigo-500/10 transition-all relative z-20"
-              >
-                <FaDownload /> Download CV
-              </motion.a>
-
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.3 }}
+              href="/resume/Nivin-MB resume.pdf"
+              download
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="flex items-center gap-2 px-6 py-2 rounded-md bg-transparent border border-indigo-500 text-indigo-400 text-sm font-medium hover:bg-indigo-500/10 transition-all relative z-20"
+              onClick={(e) => {
+                e.preventDefault();
+                window.open('/resume/Nivin-MB resume.pdf', '_blank');
+              }}
+            >
+              <FaDownload /> Download CV
+            </motion.a>
 
             <motion.button
               initial={{ opacity: 0, y: 10 }}
