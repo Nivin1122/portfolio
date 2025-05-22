@@ -141,7 +141,7 @@ const Hero = () => {
                         className="w-full h-full object-cover object-center"
                         onError={(e) => {
                           e.target.onerror = null; 
-                          e.target.src = '../../public/images/nivin3.png';
+                          e.target.src = 'https://i.imghippo.com/files/Bx3447KM.png';
                         }}
                       />
                     </div>
