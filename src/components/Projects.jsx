@@ -141,7 +141,7 @@ const Projects = () => {
       technologies: ["React", "Django", "Vapi AI", "Gemini", "JWT Auth"],
       category: "featured",
       github: "https://github.com/Nivin1122/AI_MENTOR",
-      live: "https://ai-mentor-demo.com"
+      live: "http://ai_mentor_platform.online"
     },
     {
       title: "TenZo",
@@ -150,7 +150,7 @@ const Projects = () => {
       technologies: ["Django", "React", "Razorpay", "Redux", "PostgreSQL"],
       category: "featured",
       github: "https://github.com/Nivin1122/TenZo",
-      live: "https://tenzo-store.com"
+      live: "http://tenzo_shop.store"
     },
     {
       title: "OLX Clone",
