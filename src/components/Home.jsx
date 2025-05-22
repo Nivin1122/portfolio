@@ -114,6 +114,10 @@ const Hero = () => {
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   className="px-8 py-4 rounded-lg bg-gray-800/80 backdrop-blur-sm border border-gray-700 text-white font-medium transition-all duration-300 hover:bg-gray-700 hover:border-indigo-500/30 flex items-center justify-center gap-2"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    window.open('/resume/Nivin-MB resume.pdf', '_blank');
+              }}
                 >
                   <FaDownload size={16} />
                   <span>Download CV</span>
