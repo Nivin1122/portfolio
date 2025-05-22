@@ -136,7 +136,7 @@ const Hero = () => {
                   <div className="w-full h-full rounded-full overflow-hidden border-2 border-gray-800/50 backdrop-blur-3xl">
                     <div className="relative w-full h-full flex items-center justify-center">
                       <img
-                        src="https://i.imghippo.com/files/Ozih6917Xc.png"
+                        src="/profile-photo.png"
                         alt="Nivin MB"
                         className="w-full h-full object-cover object-center"
                         onError={(e) => {
