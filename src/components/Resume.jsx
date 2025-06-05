@@ -126,14 +126,14 @@ const Resume = () => {
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.3 }}
-              href="/resume/Nivin-MB resume.pdf"
+              href="/resume/Nivin_resume1.pdf"
               download
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="flex items-center gap-2 px-6 py-2 rounded-md bg-transparent border border-indigo-500 text-indigo-400 text-sm font-medium hover:bg-indigo-500/10 transition-all relative z-20"
               onClick={(e) => {
                 e.preventDefault();
-                window.open('/resume/Nivin-MB resume.pdf', '_blank');
+                window.open('/resume/Nivin_resume1.pdf', '_blank');
               }}
             >
               <FaDownload /> Download CV

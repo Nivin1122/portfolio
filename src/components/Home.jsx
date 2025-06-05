@@ -109,14 +109,14 @@ const Hero = () => {
                   <span>Contact Me</span>
                 </motion.a>
                 <motion.a
-                  href="../../public/resume/Nivin-MB resume.pdf"
-                  download="Nivin-MB resume.pdf"
+                  href="../../public/resume/Nivin_resume1.pdf"
+                  download="Nivin_resume1.pdf"
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   className="px-8 py-4 rounded-lg bg-gray-800/80 backdrop-blur-sm border border-gray-700 text-white font-medium transition-all duration-300 hover:bg-gray-700 hover:border-indigo-500/30 flex items-center justify-center gap-2"
                   onClick={(e) => {
                     e.preventDefault();
-                    window.open('/resume/Nivin-MB resume.pdf', '_blank');
+                    window.open('/resume/Nivin_resume1.pdf', '_blank');
               }}
                 >
                   <FaDownload size={16} />
